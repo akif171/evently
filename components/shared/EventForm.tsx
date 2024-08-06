@@ -194,7 +194,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
             render={({ field }) => (
               <FormItem className="w-full">
                 <FormControl>
-                  <div className="flex-center w-full rounded-full h-[54px] bg-gray-50 overflow-hidden px-4 py-2">
+                  <div className="flex-center w-full rounded-full h-[54px] bg-grey-50 overflow-hidden px-4 py-2">
                     <Image
                       src="/assets/icons/location-grey.svg"
                       alt="location"
@@ -299,7 +299,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                       type="number"
                       placeholder="price"
                       {...field}
-                      className="p-regular-16 border-0 bg-gray-50 outline-offset-0 focus:border-0 focus-visible:ring-0 focus-visible:ring-offset-0"
+                      className="p-regular-16 border-0 bg-grey-50 outline-offset-0 focus:border-0 focus-visible:ring-0 focus-visible:ring-offset-0"
                     />
                     <FormField
                       control={form.control}

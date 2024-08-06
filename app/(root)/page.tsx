@@ -19,8 +19,6 @@ export default async function Home({ searchParams }: SearchParamProps) {
     limit: 6,
   });
 
-  console.log(events);
-
   return (
     <>
       <section className="bg-primary-50 bg-dotted-pattern bg-contain py-5 md:py-10">
@@ -55,7 +53,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
           Trust by <br /> Thousands of Events
         </h2>
 
-        <div className="flex flex-col gap-5 w-full md:flex-row">
+        <div className="flex w-full flex-col gap-5 md:flex-row">
           <Search />
           <CategoryFilter />
         </div>
